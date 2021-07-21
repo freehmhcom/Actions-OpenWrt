@@ -16,3 +16,8 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+#shadowsocks
+git clone https://github.com/shadowsocks/openwrt-feeds.git package/feeds
+git clone https://github.com/shadowsocks/openwrt-shadowsocks.git package/shadowsocks-libev
+#frp
+git clone https://github.com/kuoruan/openwrt-frp.git package/frp
